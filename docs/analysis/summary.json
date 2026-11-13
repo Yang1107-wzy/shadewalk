@@ -1,0 +1,1063 @@
+{
+  "params": {
+    "lam": 2.0,
+    "times": [
+      "09:00",
+      "12:00",
+      "15:00"
+    ],
+    "permutations": 999
+  },
+  "areas": {
+    "yau_tsim_mong": {
+      "title": "Yau Tsim Mong (Tsim Sha Tsui - Mong Kok)",
+      "segments_km": 279.1,
+      "street": {
+        "variable": "sun_hours",
+        "segments": 10274,
+        "morans_I": 0.4251,
+        "morans_p": 0.001,
+        "lisa_clusters_p05": {
+          "Not significant": 6264,
+          "Low-Low": 1864,
+          "High-High": 1638,
+          "Low-High": 271,
+          "High-Low": 237
+        },
+        "ols_r2": 0.781,
+        "ols_residual_morans_I": 0.2222,
+        "coefficients": [
+          {
+            "term": "const",
+            "beta_std": -0.0,
+            "se_hc1": 0.0046,
+            "t": -0.0,
+            "p": 1.0
+          },
+          {
+            "term": "log_hw",
+            "beta_std": -0.0691,
+            "se_hc1": 0.006,
+            "t": -11.5666,
+            "p": 0.0
+          },
+          {
+            "term": "ori_ns",
+            "beta_std": -0.0519,
+            "se_hc1": 0.005,
+            "t": -10.4145,
+            "p": 0.0
+          },
+          {
+            "term": "ori_diag",
+            "beta_std": 0.0021,
+            "se_hc1": 0.0041,
+            "t": 0.5013,
+            "p": 0.6162
+          },
+          {
+            "term": "bcr",
+            "beta_std": 0.0196,
+            "se_hc1": 0.0055,
+            "t": 3.5627,
+            "p": 0.0004
+          },
+          {
+            "term": "mean_height",
+            "beta_std": -0.001,
+            "se_hc1": 0.0051,
+            "t": -0.2032,
+            "p": 0.839
+          },
+          {
+            "term": "svf",
+            "beta_std": 0.8247,
+            "se_hc1": 0.0075,
+            "t": 110.6516,
+            "p": 0.0
+          },
+          {
+            "term": "tree",
+            "beta_std": -0.1028,
+            "se_hc1": 0.0041,
+            "t": -24.9867,
+            "p": 0.0
+          }
+        ],
+        "spatial_lag": {
+          "rho": -0.1259,
+          "pseudo_r2": 0.772,
+          "coefficients": [
+            {
+              "term": "const",
+              "coef": 0.0031,
+              "se": 0.0047,
+              "z": 0.6539,
+              "p": 0.5132
+            },
+            {
+              "term": "log_hw",
+              "coef": -0.071,
+              "se": 0.0059,
+              "z": -12.0747,
+              "p": 0.0
+            },
+            {
+              "term": "ori_ns",
+              "coef": -0.0577,
+              "se": 0.0049,
+              "z": -11.8797,
+              "p": 0.0
+            },
+            {
+              "term": "ori_diag",
+              "coef": 0.0035,
+              "se": 0.0048,
+              "z": 0.7288,
+              "p": 0.4661
+            },
+            {
+              "term": "bcr",
+              "coef": 0.0074,
+              "se": 0.0062,
+              "z": 1.1969,
+              "p": 0.2314
+            },
+            {
+              "term": "mean_height",
+              "coef": 0.0034,
+              "se": 0.005,
+              "z": 0.6839,
+              "p": 0.4941
+            },
+            {
+              "term": "svf",
+              "coef": 0.877,
+              "se": 0.0078,
+              "z": 111.9182,
+              "p": 0.0
+            },
+            {
+              "term": "tree",
+              "coef": -0.104,
+              "se": 0.0061,
+              "z": -16.998,
+              "p": 0.0
+            },
+            {
+              "term": "rho (W_y)",
+              "coef": -0.1259,
+              "se": 0.0113,
+              "z": -11.1396,
+              "p": 0.0
+            }
+          ]
+        }
+      },
+      "access": {
+        "09:00": {
+          "residents": 279241.6986321924,
+          "residents_65plus": 57170.242505832575,
+          "excluded_far_from_network": 2378.445064402127,
+          "median_walk_m": 410.8638001126464,
+          "share_within_500m": 0.6007479144613932,
+          "median_sun_m_shortest": 46.35342480295909,
+          "median_sun_m_coolest": 16.34805486945251,
+          "median_extra_walk_m": 12.35613652632071,
+          "share_65plus_sun_over_200m_shortest": 0.19553344517672056,
+          "share_65plus_sun_over_200m_coolest": 0.020908109036312156,
+          "lam": 2.0,
+          "stations": [
+            "Austin Station",
+            "East Tsim Sha Tsui Station",
+            "Hong Kong West Kowloon Station",
+            "Jordan Station",
+            "Mong Kok East Station",
+            "Mong Kok Station",
+            "Prince Edward Station",
+            "Tsim Sha Tsui Station",
+            "Yau Ma Tei Station"
+          ]
+        },
+        "12:00": {
+          "residents": 279241.6986321924,
+          "residents_65plus": 57170.242505832575,
+          "excluded_far_from_network": 2378.445064402127,
+          "median_walk_m": 410.8638001126464,
+          "share_within_500m": 0.6007479144613932,
+          "median_sun_m_shortest": 164.9656300976311,
+          "median_sun_m_coolest": 108.91105553254879,
+          "median_extra_walk_m": 16.600579329215407,
+          "share_65plus_sun_over_200m_shortest": 0.4473580133106008,
+          "share_65plus_sun_over_200m_coolest": 0.31119580330257773,
+          "lam": 2.0,
+          "stations": [
+            "Austin Station",
+            "East Tsim Sha Tsui Station",
+            "Hong Kong West Kowloon Station",
+            "Jordan Station",
+            "Mong Kok East Station",
+            "Mong Kok Station",
+            "Prince Edward Station",
+            "Tsim Sha Tsui Station",
+            "Yau Ma Tei Station"
+          ]
+        },
+        "15:00": {
+          "residents": 279241.6986321924,
+          "residents_65plus": 57170.242505832575,
+          "excluded_far_from_network": 2378.445064402127,
+          "median_walk_m": 410.8638001126464,
+          "share_within_500m": 0.6007479144613932,
+          "median_sun_m_shortest": 84.70724873275378,
+          "median_sun_m_coolest": 25.52587672004377,
+          "median_extra_walk_m": 18.080588986224996,
+          "share_65plus_sun_over_200m_shortest": 0.26218611703871875,
+          "share_65plus_sun_over_200m_coolest": 0.15876194356372456,
+          "lam": 2.0,
+          "stations": [
+            "Austin Station",
+            "East Tsim Sha Tsui Station",
+            "Hong Kong West Kowloon Station",
+            "Jordan Station",
+            "Mong Kok East Station",
+            "Mong Kok Station",
+            "Prince Edward Station",
+            "Tsim Sha Tsui Station",
+            "Yau Ma Tei Station"
+          ]
+        }
+      },
+      "lidar": {
+        "svf_median": 0.1,
+        "overhead_cover_share": 0.38,
+        "tree_cover_share": 0.11
+      }
+    },
+    "kennedy_town": {
+      "title": "Kennedy Town - HKU (Pok Fu Lam)",
+      "segments_km": 64.2,
+      "street": {
+        "variable": "sun_hours",
+        "segments": 2005,
+        "morans_I": 0.4613,
+        "morans_p": 0.001,
+        "lisa_clusters_p05": {
+          "Not significant": 1340,
+          "Low-Low": 349,
+          "High-High": 248,
+          "High-Low": 37,
+          "Low-High": 31
+        },
+        "ols_r2": 0.835,
+        "ols_residual_morans_I": 0.1617,
+        "coefficients": [
+          {
+            "term": "const",
+            "beta_std": -0.0,
+            "se_hc1": 0.0091,
+            "t": -0.0,
+            "p": 1.0
+          },
+          {
+            "term": "log_hw",
+            "beta_std": -0.0646,
+            "se_hc1": 0.0126,
+            "t": -5.11,
+            "p": 0.0
+          },
+          {
+            "term": "ori_ns",
+            "beta_std": -0.0597,
+            "se_hc1": 0.0095,
+            "t": -6.2734,
+            "p": 0.0
+          },
+          {
+            "term": "ori_diag",
+            "beta_std": -0.0033,
+            "se_hc1": 0.0083,
+            "t": -0.4012,
+            "p": 0.6883
+          },
+          {
+            "term": "bcr",
+            "beta_std": 0.0454,
+            "se_hc1": 0.0135,
+            "t": 3.3732,
+            "p": 0.0008
+          },
+          {
+            "term": "mean_height",
+            "beta_std": 0.0036,
+            "se_hc1": 0.0099,
+            "t": 0.36,
+            "p": 0.7189
+          },
+          {
+            "term": "svf",
+            "beta_std": 0.8288,
+            "se_hc1": 0.0144,
+            "t": 57.442,
+            "p": 0.0
+          },
+          {
+            "term": "tree",
+            "beta_std": -0.1594,
+            "se_hc1": 0.0093,
+            "t": -17.2181,
+            "p": 0.0
+          }
+        ],
+        "spatial_lag": {
+          "rho": -0.1958,
+          "pseudo_r2": 0.832,
+          "coefficients": [
+            {
+              "term": "const",
+              "coef": -0.0038,
+              "se": 0.0092,
+              "z": -0.4099,
+              "p": 0.6819
+            },
+            {
+              "term": "log_hw",
+              "coef": -0.0608,
+              "se": 0.0116,
+              "z": -5.2514,
+              "p": 0.0
+            },
+            {
+              "term": "ori_ns",
+              "coef": -0.0663,
+              "se": 0.0093,
+              "z": -7.1405,
+              "p": 0.0
+            },
+            {
+              "term": "ori_diag",
+              "coef": -0.0063,
+              "se": 0.0093,
+              "z": -0.6756,
+              "p": 0.4993
+            },
+            {
+              "term": "bcr",
+              "coef": 0.0428,
+              "se": 0.0132,
+              "z": 3.2412,
+              "p": 0.0012
+            },
+            {
+              "term": "mean_height",
+              "coef": -0.0061,
+              "se": 0.0104,
+              "z": -0.58,
+              "p": 0.5619
+            },
+            {
+              "term": "svf",
+              "coef": 0.9256,
+              "se": 0.0163,
+              "z": 56.7084,
+              "p": 0.0
+            },
+            {
+              "term": "tree",
+              "coef": -0.1683,
+              "se": 0.0126,
+              "z": -13.3733,
+              "p": 0.0
+            },
+            {
+              "term": "rho (W_y)",
+              "coef": -0.1958,
+              "se": 0.0215,
+              "z": -9.0899,
+              "p": 0.0
+            }
+          ]
+        }
+      },
+      "access": {
+        "09:00": {
+          "residents": 101734.83195098306,
+          "residents_65plus": 21233.44494849596,
+          "excluded_far_from_network": 24.28987510947627,
+          "median_walk_m": 347.35409403710764,
+          "share_within_500m": 0.8186379334120468,
+          "median_sun_m_shortest": 21.021544243860237,
+          "median_sun_m_coolest": 16.025844096278465,
+          "median_extra_walk_m": 4.431195534563869,
+          "share_65plus_sun_over_200m_shortest": 0.009356459046660236,
+          "share_65plus_sun_over_200m_coolest": 0.0020901124149274573,
+          "lam": 2.0,
+          "stations": [
+            "Hku Station",
+            "Kennedy Town Station"
+          ]
+        },
+        "12:00": {
+          "residents": 101734.83195098306,
+          "residents_65plus": 21233.44494849596,
+          "excluded_far_from_network": 24.28987510947627,
+          "median_walk_m": 347.35409403710764,
+          "share_within_500m": 0.8186379334120468,
+          "median_sun_m_shortest": 149.62752003079578,
+          "median_sun_m_coolest": 111.98445701744765,
+          "median_extra_walk_m": 8.201498975748223,
+          "share_65plus_sun_over_200m_shortest": 0.3635321146922243,
+          "share_65plus_sun_over_200m_coolest": 0.1631073793052609,
+          "lam": 2.0,
+          "stations": [
+            "Hku Station",
+            "Kennedy Town Station"
+          ]
+        },
+        "15:00": {
+          "residents": 101734.83195098306,
+          "residents_65plus": 21233.44494849596,
+          "excluded_far_from_network": 24.28987510947627,
+          "median_walk_m": 347.35409403710764,
+          "share_within_500m": 0.8186379334120468,
+          "median_sun_m_shortest": 56.402863721347835,
+          "median_sun_m_coolest": 28.885370091874847,
+          "median_extra_walk_m": 10.648420648164233,
+          "share_65plus_sun_over_200m_shortest": 0.03869225233776594,
+          "share_65plus_sun_over_200m_coolest": 0.005447632596162191,
+          "lam": 2.0,
+          "stations": [
+            "Hku Station",
+            "Kennedy Town Station"
+          ]
+        }
+      },
+      "lidar": {
+        "svf_median": 0.093,
+        "overhead_cover_share": 0.382,
+        "tree_cover_share": 0.223
+      }
+    },
+    "central": {
+      "title": "Central - Sheung Wan",
+      "segments_km": 119.1,
+      "street": {
+        "variable": "sun_hours",
+        "segments": 3973,
+        "morans_I": 0.5325,
+        "morans_p": 0.001,
+        "lisa_clusters_p05": {
+          "Not significant": 2487,
+          "Low-Low": 794,
+          "High-High": 524,
+          "Low-High": 97,
+          "High-Low": 71
+        },
+        "ols_r2": 0.812,
+        "ols_residual_morans_I": 0.3026,
+        "coefficients": [
+          {
+            "term": "const",
+            "beta_std": 0.0,
+            "se_hc1": 0.0069,
+            "t": 0.0,
+            "p": 1.0
+          },
+          {
+            "term": "log_hw",
+            "beta_std": -0.0913,
+            "se_hc1": 0.0085,
+            "t": -10.7651,
+            "p": 0.0
+          },
+          {
+            "term": "ori_ns",
+            "beta_std": -0.0518,
+            "se_hc1": 0.0079,
+            "t": -6.5213,
+            "p": 0.0
+          },
+          {
+            "term": "ori_diag",
+            "beta_std": -0.0057,
+            "se_hc1": 0.0063,
+            "t": -0.9054,
+            "p": 0.3653
+          },
+          {
+            "term": "bcr",
+            "beta_std": 0.0103,
+            "se_hc1": 0.0105,
+            "t": 0.9808,
+            "p": 0.3268
+          },
+          {
+            "term": "mean_height",
+            "beta_std": -0.051,
+            "se_hc1": 0.0089,
+            "t": -5.7056,
+            "p": 0.0
+          },
+          {
+            "term": "svf",
+            "beta_std": 0.8116,
+            "se_hc1": 0.0134,
+            "t": 60.7136,
+            "p": 0.0
+          },
+          {
+            "term": "tree",
+            "beta_std": -0.1521,
+            "se_hc1": 0.0075,
+            "t": -20.3385,
+            "p": 0.0
+          }
+        ],
+        "spatial_lag": {
+          "rho": -0.1486,
+          "pseudo_r2": 0.799,
+          "coefficients": [
+            {
+              "term": "const",
+              "coef": -0.0004,
+              "se": 0.0071,
+              "z": -0.051,
+              "p": 0.9593
+            },
+            {
+              "term": "log_hw",
+              "coef": -0.0923,
+              "se": 0.0092,
+              "z": -10.0506,
+              "p": 0.0
+            },
+            {
+              "term": "ori_ns",
+              "coef": -0.0581,
+              "se": 0.0074,
+              "z": -7.8628,
+              "p": 0.0
+            },
+            {
+              "term": "ori_diag",
+              "coef": -0.0063,
+              "se": 0.0074,
+              "z": -0.855,
+              "p": 0.3925
+            },
+            {
+              "term": "bcr",
+              "coef": -0.0105,
+              "se": 0.011,
+              "z": -0.948,
+              "p": 0.3431
+            },
+            {
+              "term": "mean_height",
+              "coef": -0.0555,
+              "se": 0.0073,
+              "z": -7.59,
+              "p": 0.0
+            },
+            {
+              "term": "svf",
+              "coef": 0.8834,
+              "se": 0.0133,
+              "z": 66.5329,
+              "p": 0.0
+            },
+            {
+              "term": "tree",
+              "coef": -0.1582,
+              "se": 0.0097,
+              "z": -16.3795,
+              "p": 0.0
+            },
+            {
+              "term": "rho (W_y)",
+              "coef": -0.1486,
+              "se": 0.0176,
+              "z": -8.4328,
+              "p": 0.0
+            }
+          ]
+        }
+      },
+      "access": {
+        "09:00": {
+          "residents": 54349.777554056025,
+          "residents_65plus": 9902.091241488977,
+          "excluded_far_from_network": 230.40488805856876,
+          "median_walk_m": 731.4902273510095,
+          "share_within_500m": 0.347028374846346,
+          "median_sun_m_shortest": 25.513677543265505,
+          "median_sun_m_coolest": 7.920056778310414,
+          "median_extra_walk_m": 21.447203613924444,
+          "share_65plus_sun_over_200m_shortest": 0.035594652533153734,
+          "share_65plus_sun_over_200m_coolest": 2.335342282069914e-07,
+          "lam": 2.0,
+          "stations": [
+            "Admiralty Station",
+            "Central Station",
+            "Hong Kong Station",
+            "Sheung Wan Station"
+          ]
+        },
+        "12:00": {
+          "residents": 54349.777554056025,
+          "residents_65plus": 9902.091241488977,
+          "excluded_far_from_network": 230.40488805856876,
+          "median_walk_m": 731.4902273510095,
+          "share_within_500m": 0.347028374846346,
+          "median_sun_m_shortest": 389.74344050691064,
+          "median_sun_m_coolest": 153.9530513433314,
+          "median_extra_walk_m": 96.30394451717052,
+          "share_65plus_sun_over_200m_shortest": 0.7464630306844677,
+          "share_65plus_sun_over_200m_coolest": 0.31191000537382224,
+          "lam": 2.0,
+          "stations": [
+            "Admiralty Station",
+            "Central Station",
+            "Hong Kong Station",
+            "Sheung Wan Station"
+          ]
+        },
+        "15:00": {
+          "residents": 54349.777554056025,
+          "residents_65plus": 9902.091241488977,
+          "excluded_far_from_network": 230.40488805856876,
+          "median_walk_m": 731.4902273510095,
+          "share_within_500m": 0.347028374846346,
+          "median_sun_m_shortest": 73.47450223002866,
+          "median_sun_m_coolest": 38.45315387509956,
+          "median_extra_walk_m": 8.405919103249175,
+          "share_65plus_sun_over_200m_shortest": 0.019137314800852862,
+          "share_65plus_sun_over_200m_coolest": 0.002469001564230268,
+          "lam": 2.0,
+          "stations": [
+            "Admiralty Station",
+            "Central Station",
+            "Hong Kong Station",
+            "Sheung Wan Station"
+          ]
+        }
+      },
+      "lidar": {
+        "svf_median": 0.08,
+        "overhead_cover_share": 0.356,
+        "tree_cover_share": 0.114
+      }
+    },
+    "mong_kok": {
+      "title": "Mong Kok",
+      "segments_km": 111.8,
+      "street": {
+        "variable": "sun_hours",
+        "segments": 4299,
+        "morans_I": 0.3434,
+        "morans_p": 0.001,
+        "lisa_clusters_p05": {
+          "Not significant": 2891,
+          "High-High": 600,
+          "Low-Low": 582,
+          "Low-High": 155,
+          "High-Low": 71
+        },
+        "ols_r2": 0.735,
+        "ols_residual_morans_I": 0.2127,
+        "coefficients": [
+          {
+            "term": "const",
+            "beta_std": 0.0,
+            "se_hc1": 0.0079,
+            "t": 0.0,
+            "p": 1.0
+          },
+          {
+            "term": "log_hw",
+            "beta_std": -0.0639,
+            "se_hc1": 0.0097,
+            "t": -6.5637,
+            "p": 0.0
+          },
+          {
+            "term": "ori_ns",
+            "beta_std": -0.0507,
+            "se_hc1": 0.0086,
+            "t": -5.8995,
+            "p": 0.0
+          },
+          {
+            "term": "ori_diag",
+            "beta_std": -0.0088,
+            "se_hc1": 0.0073,
+            "t": -1.203,
+            "p": 0.2291
+          },
+          {
+            "term": "bcr",
+            "beta_std": 0.0244,
+            "se_hc1": 0.009,
+            "t": 2.6983,
+            "p": 0.007
+          },
+          {
+            "term": "mean_height",
+            "beta_std": 0.0085,
+            "se_hc1": 0.0073,
+            "t": 1.1655,
+            "p": 0.2439
+          },
+          {
+            "term": "svf",
+            "beta_std": 0.8133,
+            "se_hc1": 0.0123,
+            "t": 66.1537,
+            "p": 0.0
+          },
+          {
+            "term": "tree",
+            "beta_std": -0.0678,
+            "se_hc1": 0.0058,
+            "t": -11.6694,
+            "p": 0.0
+          }
+        ],
+        "spatial_lag": {
+          "rho": -0.1155,
+          "pseudo_r2": 0.726,
+          "coefficients": [
+            {
+              "term": "const",
+              "coef": 0.0033,
+              "se": 0.008,
+              "z": 0.4131,
+              "p": 0.6795
+            },
+            {
+              "term": "log_hw",
+              "coef": -0.0677,
+              "se": 0.0098,
+              "z": -6.873,
+              "p": 0.0
+            },
+            {
+              "term": "ori_ns",
+              "coef": -0.0568,
+              "se": 0.0088,
+              "z": -6.4677,
+              "p": 0.0
+            },
+            {
+              "term": "ori_diag",
+              "coef": -0.0066,
+              "se": 0.0087,
+              "z": -0.7568,
+              "p": 0.4492
+            },
+            {
+              "term": "bcr",
+              "coef": 0.0174,
+              "se": 0.0095,
+              "z": 1.8264,
+              "p": 0.0678
+            },
+            {
+              "term": "mean_height",
+              "coef": 0.0124,
+              "se": 0.0082,
+              "z": 1.5071,
+              "p": 0.1318
+            },
+            {
+              "term": "svf",
+              "coef": 0.8517,
+              "se": 0.012,
+              "z": 70.8715,
+              "p": 0.0
+            },
+            {
+              "term": "tree",
+              "coef": -0.0679,
+              "se": 0.0097,
+              "z": -6.9903,
+              "p": 0.0
+            },
+            {
+              "term": "rho (W_y)",
+              "coef": -0.1155,
+              "se": 0.0196,
+              "z": -5.9064,
+              "p": 0.0
+            }
+          ]
+        }
+      },
+      "access": {
+        "09:00": {
+          "residents": 147818.25276645523,
+          "residents_65plus": 29242.290689327874,
+          "excluded_far_from_network": 1025.775004707888,
+          "median_walk_m": 430.56214611019266,
+          "share_within_500m": 0.5842497607696672,
+          "median_sun_m_shortest": 38.72893013730207,
+          "median_sun_m_coolest": 15.006807312524828,
+          "median_extra_walk_m": 9.086449280276469,
+          "share_65plus_sun_over_200m_shortest": 0.025914592904268778,
+          "share_65plus_sun_over_200m_coolest": 0.0,
+          "lam": 2.0,
+          "stations": [
+            "Mong Kok East Station",
+            "Mong Kok Station",
+            "Prince Edward Station",
+            "Yau Ma Tei Station"
+          ]
+        },
+        "12:00": {
+          "residents": 147818.25276645523,
+          "residents_65plus": 29242.290689327874,
+          "excluded_far_from_network": 1025.775004707888,
+          "median_walk_m": 430.56214611019266,
+          "share_within_500m": 0.5842497607696672,
+          "median_sun_m_shortest": 164.9656300976311,
+          "median_sun_m_coolest": 110.57397829072933,
+          "median_extra_walk_m": 15.933513233445865,
+          "share_65plus_sun_over_200m_shortest": 0.39298851797351464,
+          "share_65plus_sun_over_200m_coolest": 0.2008680887546838,
+          "lam": 2.0,
+          "stations": [
+            "Mong Kok East Station",
+            "Mong Kok Station",
+            "Prince Edward Station",
+            "Yau Ma Tei Station"
+          ]
+        },
+        "15:00": {
+          "residents": 147818.25276645523,
+          "residents_65plus": 29242.290689327874,
+          "excluded_far_from_network": 1025.775004707888,
+          "median_walk_m": 430.56214611019266,
+          "share_within_500m": 0.5842497607696672,
+          "median_sun_m_shortest": 91.93141992431676,
+          "median_sun_m_coolest": 19.535348392672244,
+          "median_extra_walk_m": 28.24509889682315,
+          "share_65plus_sun_over_200m_shortest": 0.1164162551536106,
+          "share_65plus_sun_over_200m_coolest": 0.0008297560500534251,
+          "lam": 2.0,
+          "stations": [
+            "Mong Kok East Station",
+            "Mong Kok Station",
+            "Prince Edward Station",
+            "Yau Ma Tei Station"
+          ]
+        }
+      },
+      "lidar": {
+        "svf_median": 0.091,
+        "overhead_cover_share": 0.398,
+        "tree_cover_share": 0.084
+      }
+    },
+    "sha_tin": {
+      "title": "Sha Tin town centre",
+      "segments_km": 83.3,
+      "street": {
+        "variable": "sun_hours",
+        "segments": 2631,
+        "morans_I": 0.4429,
+        "morans_p": 0.001,
+        "lisa_clusters_p05": {
+          "Not significant": 1495,
+          "Low-Low": 506,
+          "High-High": 466,
+          "Low-High": 83,
+          "High-Low": 81
+        },
+        "ols_r2": 0.896,
+        "ols_residual_morans_I": 0.235,
+        "coefficients": [
+          {
+            "term": "const",
+            "beta_std": 0.0,
+            "se_hc1": 0.0063,
+            "t": 0.0,
+            "p": 1.0
+          },
+          {
+            "term": "log_hw",
+            "beta_std": -0.0212,
+            "se_hc1": 0.0083,
+            "t": -2.5474,
+            "p": 0.0109
+          },
+          {
+            "term": "ori_ns",
+            "beta_std": -0.0349,
+            "se_hc1": 0.0062,
+            "t": -5.6032,
+            "p": 0.0
+          },
+          {
+            "term": "ori_diag",
+            "beta_std": -0.0047,
+            "se_hc1": 0.0064,
+            "t": -0.7365,
+            "p": 0.4615
+          },
+          {
+            "term": "bcr",
+            "beta_std": -0.0404,
+            "se_hc1": 0.0083,
+            "t": -4.8793,
+            "p": 0.0
+          },
+          {
+            "term": "mean_height",
+            "beta_std": -0.0327,
+            "se_hc1": 0.0078,
+            "t": -4.2024,
+            "p": 0.0
+          },
+          {
+            "term": "svf",
+            "beta_std": 0.7863,
+            "se_hc1": 0.0114,
+            "t": 69.2735,
+            "p": 0.0
+          },
+          {
+            "term": "tree",
+            "beta_std": -0.2107,
+            "se_hc1": 0.0082,
+            "t": -25.5729,
+            "p": 0.0
+          }
+        ],
+        "spatial_lag": {
+          "rho": -0.0822,
+          "pseudo_r2": 0.893,
+          "coefficients": [
+            {
+              "term": "const",
+              "coef": -0.0003,
+              "se": 0.0064,
+              "z": -0.0518,
+              "p": 0.9587
+            },
+            {
+              "term": "log_hw",
+              "coef": -0.0197,
+              "se": 0.0077,
+              "z": -2.5547,
+              "p": 0.0106
+            },
+            {
+              "term": "ori_ns",
+              "coef": -0.0366,
+              "se": 0.0064,
+              "z": -5.7359,
+              "p": 0.0
+            },
+            {
+              "term": "ori_diag",
+              "coef": -0.0037,
+              "se": 0.0064,
+              "z": -0.575,
+              "p": 0.5653
+            },
+            {
+              "term": "bcr",
+              "coef": -0.0477,
+              "se": 0.0074,
+              "z": -6.4677,
+              "p": 0.0
+            },
+            {
+              "term": "mean_height",
+              "coef": -0.042,
+              "se": 0.0076,
+              "z": -5.5296,
+              "p": 0.0
+            },
+            {
+              "term": "svf",
+              "coef": 0.8191,
+              "se": 0.0108,
+              "z": 76.0207,
+              "p": 0.0
+            },
+            {
+              "term": "tree",
+              "coef": -0.2133,
+              "se": 0.0089,
+              "z": -23.9795,
+              "p": 0.0
+            },
+            {
+              "term": "rho (W_y)",
+              "coef": -0.0822,
+              "se": 0.0139,
+              "z": -5.9165,
+              "p": 0.0
+            }
+          ]
+        }
+      },
+      "access": {
+        "09:00": {
+          "residents": 68379.99696965268,
+          "residents_65plus": 18092.062013070652,
+          "excluded_far_from_network": 250.2883000253787,
+          "median_walk_m": 984.8697418451355,
+          "share_within_500m": 0.21732580130542176,
+          "median_sun_m_shortest": 209.2886044740019,
+          "median_sun_m_coolest": 108.02784359033407,
+          "median_extra_walk_m": 111.42695702439528,
+          "share_65plus_sun_over_200m_shortest": 0.5824479028577598,
+          "share_65plus_sun_over_200m_coolest": 0.5405957964135872,
+          "lam": 2.0,
+          "stations": [
+            "Sha Tin Station"
+          ]
+        },
+        "12:00": {
+          "residents": 68379.99696965268,
+          "residents_65plus": 18092.062013070652,
+          "excluded_far_from_network": 250.2883000253787,
+          "median_walk_m": 984.8697418451355,
+          "share_within_500m": 0.21732580130542176,
+          "median_sun_m_shortest": 608.707409423354,
+          "median_sun_m_coolest": 316.9985957124865,
+          "median_extra_walk_m": 120.93364540930952,
+          "share_65plus_sun_over_200m_shortest": 0.8765211254868658,
+          "share_65plus_sun_over_200m_coolest": 0.659786724946048,
+          "lam": 2.0,
+          "stations": [
+            "Sha Tin Station"
+          ]
+        },
+        "15:00": {
+          "residents": 68379.99696965268,
+          "residents_65plus": 18092.062013070652,
+          "excluded_far_from_network": 250.2883000253787,
+          "median_walk_m": 984.8697418451355,
+          "share_within_500m": 0.21732580130542176,
+          "median_sun_m_shortest": 499.18568224268375,
+          "median_sun_m_coolest": 168.14097459130593,
+          "median_extra_walk_m": 113.26135082973929,
+          "share_65plus_sun_over_200m_shortest": 0.8466160618518072,
+          "share_65plus_sun_over_200m_coolest": 0.5463843436414171,
+          "lam": 2.0,
+          "stations": [
+            "Sha Tin Station"
+          ]
+        }
+      },
+      "lidar": {
+        "svf_median": 0.192,
+        "overhead_cover_share": 0.356,
+        "tree_cover_share": 0.18
+      }
+    }
+  }
+}

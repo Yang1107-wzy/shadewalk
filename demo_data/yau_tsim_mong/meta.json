@@ -1,0 +1,189 @@
+{
+  "shadewalk_version": "0.1.0",
+  "area": {
+    "key": "yau_tsim_mong",
+    "title": "Yau Tsim Mong (Tsim Sha Tsui - Mong Kok)",
+    "bbox": [
+      114.163,
+      22.293,
+      114.18,
+      22.326
+    ]
+  },
+  "date": "2026-07-15",
+  "timezone": "Asia/Hong_Kong",
+  "slots": [
+    "07:00",
+    "07:30",
+    "08:00",
+    "08:30",
+    "09:00",
+    "09:30",
+    "10:00",
+    "10:30",
+    "11:00",
+    "11:30",
+    "12:00",
+    "12:30",
+    "13:00",
+    "13:30",
+    "14:00",
+    "14:30",
+    "15:00",
+    "15:30",
+    "16:00",
+    "16:30",
+    "17:00",
+    "17:30",
+    "18:00",
+    "18:30",
+    "19:00"
+  ],
+  "sun": {
+    "07:00": {
+      "altitude": 14.796,
+      "azimuth": 72.375
+    },
+    "07:30": {
+      "altitude": 21.428,
+      "azimuth": 74.583
+    },
+    "08:00": {
+      "altitude": 28.138,
+      "azimuth": 76.64
+    },
+    "08:30": {
+      "altitude": 34.907,
+      "azimuth": 78.579
+    },
+    "09:00": {
+      "altitude": 41.724,
+      "azimuth": 80.433
+    },
+    "09:30": {
+      "altitude": 48.578,
+      "azimuth": 82.235
+    },
+    "10:00": {
+      "altitude": 55.463,
+      "azimuth": 84.025
+    },
+    "10:30": {
+      "altitude": 62.372,
+      "azimuth": 85.865
+    },
+    "11:00": {
+      "altitude": 69.297,
+      "azimuth": 87.877
+    },
+    "11:30": {
+      "altitude": 76.232,
+      "azimuth": 90.401
+    },
+    "12:00": {
+      "altitude": 83.16,
+      "azimuth": 95.101
+    },
+    "12:30": {
+      "altitude": 89.208,
+      "azimuth": 191.608
+    },
+    "13:00": {
+      "altitude": 82.844,
+      "azimuth": 265.198
+    },
+    "13:30": {
+      "altitude": 75.913,
+      "azimuth": 269.683
+    },
+    "14:00": {
+      "altitude": 68.978,
+      "azimuth": 272.167
+    },
+    "14:30": {
+      "altitude": 62.052,
+      "azimuth": 274.165
+    },
+    "15:00": {
+      "altitude": 55.144,
+      "azimuth": 276.0
+    },
+    "15:30": {
+      "altitude": 48.258,
+      "azimuth": 277.788
+    },
+    "16:00": {
+      "altitude": 41.402,
+      "azimuth": 279.59
+    },
+    "16:30": {
+      "altitude": 34.585,
+      "azimuth": 281.445
+    },
+    "17:00": {
+      "altitude": 27.815,
+      "azimuth": 283.387
+    },
+    "17:30": {
+      "altitude": 21.105,
+      "azimuth": 285.447
+    },
+    "18:00": {
+      "altitude": 14.473,
+      "azimuth": 287.659
+    },
+    "18:30": {
+      "altitude": 7.954,
+      "azimuth": 290.063
+    },
+    "19:00": {
+      "altitude": 1.71,
+      "azimuth": 292.705
+    }
+  },
+  "params": {
+    "beta": 1.0,
+    "sample_step_m": 2.0,
+    "building_buffer_deg": 0.004,
+    "shade_model": "lidar",
+    "lidar_res_m": 1.0
+  },
+  "counts": {
+    "buildings": 9535,
+    "edges": 22462
+  },
+  "lst_scenes": [
+    "LC08_L2SP_121045_20230627_02_T1",
+    "LC08_L2SP_121045_20230713_02_T1",
+    "LC08_L2SP_121045_20230814_02_T1",
+    "LC08_L2SP_121045_20230830_02_T1",
+    "LC08_L2SP_121045_20240917_02_T1",
+    "LC08_L2SP_121045_20250702_02_T1",
+    "LC08_L2SP_121045_20250904_02_T1",
+    "LC09_L2SP_121045_20230603_02_T1",
+    "LC09_L2SP_121045_20230923_02_T1",
+    "LC09_L2SP_121045_20240707_02_T1",
+    "LC09_L2SP_121045_20250608_02_T1",
+    "LC09_L2SP_121045_20250726_02_T1",
+    "LC09_L2SP_121045_20250827_02_T1",
+    "LC09_L2SP_121045_20250912_02_T1"
+  ],
+  "ndvi_scenes": [
+    "S2C_MSIL2A_20251007T024621_R132_T50QKK_20251007T061712",
+    "S2A_MSIL2A_20251009T025151_R132_T50QKK_20251009T063816",
+    "S2B_MSIL2A_20241010T025529_R032_T50QKK_20241010T061713",
+    "S2B_MSIL2A_20240927T024529_R132_T50QKK_20240927T055502",
+    "S2A_MSIL2A_20240803T024531_R132_T50QKK_20240803T075750",
+    "S2B_MSIL2A_20241030T025749_R032_T50QKK_20241030T061242",
+    "S2C_MSIL2A_20250927T024541_R132_T50QKK_20250927T062614",
+    "S2B_MSIL2A_20250915T025519_R032_T50QKK_20250915T064429"
+  ],
+  "built_at": "2026-11-13T17:52:35+08:00",
+  "sources": {
+    "buildings": "LandsD Building (CSDI landsd_rcd_1637211194312_35158)",
+    "network": "LandsD 3D Pedestrian Network (CSDI landsd_rcd_1637222018065_52265)",
+    "lst": "Landsat 8/9 C2 L2 ST via Microsoft Planetary Computer",
+    "surface": "CEDD 2020 LiDAR DSM/DTM (CSDI cedd_rcd_1629267205233_87895)",
+    "ndvi": "Sentinel-2 L2A via Microsoft Planetary Computer"
+  }
+}

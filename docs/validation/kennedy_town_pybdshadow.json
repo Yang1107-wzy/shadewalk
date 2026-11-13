@@ -1,0 +1,54 @@
+{
+  "pybdshadow_version": "0.3.5",
+  "date": "2026-07-15",
+  "slots": [
+    {
+      "time": "08:00",
+      "sun_altitude": 28.1,
+      "sun_azimuth": 76.62,
+      "shadewalk_m2": 1299370,
+      "pybdshadow_m2": 1299704,
+      "iou": 0.997
+    },
+    {
+      "time": "10:00",
+      "sun_altitude": 55.43,
+      "sun_azimuth": 84.0,
+      "shadewalk_m2": 986737,
+      "pybdshadow_m2": 985631,
+      "iou": 0.9964
+    },
+    {
+      "time": "12:00",
+      "sun_altitude": 83.13,
+      "sun_azimuth": 94.95,
+      "shadewalk_m2": 708647,
+      "pybdshadow_m2": 708412,
+      "iou": 0.9975
+    },
+    {
+      "time": "14:00",
+      "sun_altitude": 69.01,
+      "sun_azimuth": 272.19,
+      "shadewalk_m2": 848795,
+      "pybdshadow_m2": 847470,
+      "iou": 0.9968
+    },
+    {
+      "time": "16:00",
+      "sun_altitude": 41.43,
+      "sun_azimuth": 279.59,
+      "shadewalk_m2": 1144318,
+      "pybdshadow_m2": 1142341,
+      "iou": 0.9963
+    },
+    {
+      "time": "18:00",
+      "sun_altitude": 14.5,
+      "sun_azimuth": 287.65,
+      "shadewalk_m2": 1752041,
+      "pybdshadow_m2": 1752391,
+      "iou": 0.9967
+    }
+  ]
+}

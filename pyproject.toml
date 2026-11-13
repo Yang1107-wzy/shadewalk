@@ -1,0 +1,85 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "shadewalk"
+version = "0.2.0"
+description = "Street-level shade, sun exposure and heat-aware walking for Hong Kong from open LiDAR, 3D building, pedestrian-network, census and satellite data."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Zhengyang Wang" }]
+keywords = ["gis", "urban-heat", "shade", "routing", "hong-kong", "geospatial", "lidar", "landsat", "sentinel-2", "spatial-statistics", "accessibility", "walkability"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: GIS",
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "shapely>=2.0",
+  "pyproj>=3.5",
+  "geopandas>=0.14",
+  "pyarrow>=14",
+  "networkx>=3.1",
+  "scipy>=1.10",
+  "rasterio>=1.3",
+  "requests>=2.31",
+  "typer>=0.12",
+  "rich>=13",
+  "folium>=0.15",
+]
+
+[project.optional-dependencies]
+lst = ["pystac-client>=0.7", "planetary-computer>=1.0"]
+app = ["streamlit>=1.35", "streamlit-folium>=0.20"]
+docs = ["mkdocs-material>=9.5", "mkdocstrings[python]>=0.25"]
+dev = [
+  "pytest>=8", "ruff>=0.5", "mypy>=1.10", "types-requests", "matplotlib>=3.8",
+  "streamlit>=1.35", "streamlit-folium>=0.20",
+  # reference implementations used only to cross-validate shadewalk.stats in tests
+  "esda>=2.5", "libpysal>=4.10", "spreg>=1.5",
+]
+
+[project.scripts]
+shadewalk = "shadewalk.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/Yang1107-wzy/shadewalk"
+Documentation = "https://yang1107-wzy.github.io/shadewalk/"
+Issues = "https://github.com/Yang1107-wzy/shadewalk/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/shadewalk"]
+
+[tool.hatch.build.targets.sdist]
+only-include = ["src", "tests", "README.md", "LICENSE", "CHANGELOG.md", "CITATION.cff",
+                "DATA_ATTRIBUTION.md", "pyproject.toml"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["examples/*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "NPY", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003", "B008"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/render_docs.py" = ["E501"]  # long Markdown templates
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+warn_unused_ignores = true
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["network: tests that download real data (deselect with -m 'not network')"]
+addopts = "-m 'not network'"

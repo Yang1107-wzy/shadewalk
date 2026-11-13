@@ -1,0 +1,24 @@
+{
+  "areas": [
+    {
+      "key": "yau_tsim_mong",
+      "title": "Yau Tsim Mong (Tsim Sha Tsui - Mong Kok)"
+    },
+    {
+      "key": "mong_kok",
+      "title": "Mong Kok"
+    },
+    {
+      "key": "central",
+      "title": "Central - Sheung Wan"
+    },
+    {
+      "key": "kennedy_town",
+      "title": "Kennedy Town - HKU (Pok Fu Lam)"
+    },
+    {
+      "key": "sha_tin",
+      "title": "Sha Tin town centre"
+    }
+  ]
+}

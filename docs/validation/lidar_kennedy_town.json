@@ -1,0 +1,46 @@
+{
+  "area": "kennedy_town",
+  "date": "2026-07-15",
+  "lidar_res_m": 1.0,
+  "overhead_cover_vs_weatherproof": {
+    "points_covered_label": 3759,
+    "points_noncovered_label": 29314,
+    "detected_on_covered": 0.5935089119446662,
+    "detected_on_noncovered": 0.3528689363444088
+  },
+  "slots": [
+    {
+      "time": "09:00",
+      "sun_altitude": 41.687,
+      "sun_azimuth": 80.412,
+      "points": 33712,
+      "vector_vs_raster_buildings_agreement": 0.9526578073089701,
+      "shade_buildings_vector": 0.48543545325106785,
+      "shade_buildings_on_terrain": 0.4787612719506407,
+      "shade_full_dsm": 0.8231193640246797,
+      "shade_full_dsm_plus_cover": 0.8243058851447556
+    },
+    {
+      "time": "12:00",
+      "sun_altitude": 83.127,
+      "sun_azimuth": 94.953,
+      "points": 33712,
+      "vector_vs_raster_buildings_agreement": 0.9571072615092548,
+      "shade_buildings_vector": 0.13876364499288088,
+      "shade_buildings_on_terrain": 0.10313834836260086,
+      "shade_full_dsm": 0.3324038917892739,
+      "shade_full_dsm_plus_cover": 0.4762399145704794
+    },
+    {
+      "time": "15:00",
+      "sun_altitude": 55.176,
+      "sun_azimuth": 276.01,
+      "points": 33712,
+      "vector_vs_raster_buildings_agreement": 0.9514712861888942,
+      "shade_buildings_vector": 0.40754034171808257,
+      "shade_buildings_on_terrain": 0.37363550071191265,
+      "shade_full_dsm": 0.7291765543426673,
+      "shade_full_dsm_plus_cover": 0.7348718557190318
+    }
+  ]
+}

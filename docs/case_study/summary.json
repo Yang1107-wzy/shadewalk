@@ -1,0 +1,309 @@
+{
+  "params": {
+    "pairs_per_area": 100,
+    "seed": 42,
+    "crow_m": [
+      400,
+      1200
+    ],
+    "slots": [
+      "09:00",
+      "12:00",
+      "15:00"
+    ],
+    "lams": [
+      2.0,
+      4.0
+    ]
+  },
+  "rows": [
+    {
+      "area": "central",
+      "slot": "09:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 89.0,
+      "median_short_m": 976.6,
+      "mean_detour_pct": 6.5,
+      "mean_sun_cut_pct": 65.8,
+      "mean_sun_cut_m": 88.6,
+      "short_shaded_pct": 88.9
+    },
+    {
+      "area": "central",
+      "slot": "09:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 91.0,
+      "median_short_m": 976.6,
+      "mean_detour_pct": 8.5,
+      "mean_sun_cut_pct": 71.1,
+      "mean_sun_cut_m": 94.9,
+      "short_shaded_pct": 88.9
+    },
+    {
+      "area": "central",
+      "slot": "12:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 99.0,
+      "median_short_m": 976.6,
+      "mean_detour_pct": 19.6,
+      "mean_sun_cut_pct": 56.1,
+      "mean_sun_cut_m": 282.0,
+      "short_shaded_pct": 50.7
+    },
+    {
+      "area": "central",
+      "slot": "12:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 100.0,
+      "median_short_m": 976.6,
+      "mean_detour_pct": 30.8,
+      "mean_sun_cut_pct": 62.1,
+      "mean_sun_cut_m": 308.6,
+      "short_shaded_pct": 50.7
+    },
+    {
+      "area": "central",
+      "slot": "15:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 90.0,
+      "median_short_m": 976.6,
+      "mean_detour_pct": 6.6,
+      "mean_sun_cut_pct": 56.1,
+      "mean_sun_cut_m": 105.6,
+      "short_shaded_pct": 83.9
+    },
+    {
+      "area": "central",
+      "slot": "15:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 94.0,
+      "median_short_m": 976.6,
+      "mean_detour_pct": 13.0,
+      "mean_sun_cut_pct": 64.8,
+      "mean_sun_cut_m": 119.4,
+      "short_shaded_pct": 83.9
+    },
+    {
+      "area": "kennedy_town",
+      "slot": "09:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 83.0,
+      "median_short_m": 1208.4,
+      "mean_detour_pct": 4.7,
+      "mean_sun_cut_pct": 46.4,
+      "mean_sun_cut_m": 71.3,
+      "short_shaded_pct": 89.0
+    },
+    {
+      "area": "kennedy_town",
+      "slot": "09:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 86.0,
+      "median_short_m": 1208.4,
+      "mean_detour_pct": 7.2,
+      "mean_sun_cut_pct": 52.0,
+      "mean_sun_cut_m": 77.5,
+      "short_shaded_pct": 89.0
+    },
+    {
+      "area": "kennedy_town",
+      "slot": "12:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 95.0,
+      "median_short_m": 1208.4,
+      "mean_detour_pct": 5.6,
+      "mean_sun_cut_pct": 20.1,
+      "mean_sun_cut_m": 108.2,
+      "short_shaded_pct": 56.3
+    },
+    {
+      "area": "kennedy_town",
+      "slot": "12:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 96.0,
+      "median_short_m": 1208.4,
+      "mean_detour_pct": 9.1,
+      "mean_sun_cut_pct": 21.0,
+      "mean_sun_cut_m": 112.9,
+      "short_shaded_pct": 56.3
+    },
+    {
+      "area": "kennedy_town",
+      "slot": "15:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 96.0,
+      "median_short_m": 1208.4,
+      "mean_detour_pct": 5.5,
+      "mean_sun_cut_pct": 39.2,
+      "mean_sun_cut_m": 113.1,
+      "short_shaded_pct": 78.1
+    },
+    {
+      "area": "kennedy_town",
+      "slot": "15:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 97.0,
+      "median_short_m": 1208.4,
+      "mean_detour_pct": 7.9,
+      "mean_sun_cut_pct": 41.3,
+      "mean_sun_cut_m": 118.5,
+      "short_shaded_pct": 78.1
+    },
+    {
+      "area": "mong_kok",
+      "slot": "09:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 96.0,
+      "median_short_m": 997.2,
+      "mean_detour_pct": 4.9,
+      "mean_sun_cut_pct": 46.9,
+      "mean_sun_cut_m": 75.7,
+      "short_shaded_pct": 85.5
+    },
+    {
+      "area": "mong_kok",
+      "slot": "09:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 98.0,
+      "median_short_m": 997.2,
+      "mean_detour_pct": 8.7,
+      "mean_sun_cut_pct": 51.6,
+      "mean_sun_cut_m": 83.9,
+      "short_shaded_pct": 85.5
+    },
+    {
+      "area": "mong_kok",
+      "slot": "12:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 98.0,
+      "median_short_m": 997.2,
+      "mean_detour_pct": 10.9,
+      "mean_sun_cut_pct": 39.5,
+      "mean_sun_cut_m": 195.9,
+      "short_shaded_pct": 53.7
+    },
+    {
+      "area": "mong_kok",
+      "slot": "12:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 99.0,
+      "median_short_m": 997.2,
+      "mean_detour_pct": 16.0,
+      "mean_sun_cut_pct": 41.5,
+      "mean_sun_cut_m": 204.6,
+      "short_shaded_pct": 53.7
+    },
+    {
+      "area": "mong_kok",
+      "slot": "15:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 98.0,
+      "median_short_m": 997.2,
+      "mean_detour_pct": 7.6,
+      "mean_sun_cut_pct": 59.3,
+      "mean_sun_cut_m": 141.7,
+      "short_shaded_pct": 78.2
+    },
+    {
+      "area": "mong_kok",
+      "slot": "15:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 99.0,
+      "median_short_m": 997.2,
+      "mean_detour_pct": 13.2,
+      "mean_sun_cut_pct": 65.8,
+      "mean_sun_cut_m": 153.9,
+      "short_shaded_pct": 78.2
+    },
+    {
+      "area": "sha_tin",
+      "slot": "09:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 95.0,
+      "median_short_m": 1295.5,
+      "mean_detour_pct": 13.7,
+      "mean_sun_cut_pct": 36.0,
+      "mean_sun_cut_m": 199.5,
+      "short_shaded_pct": 58.0
+    },
+    {
+      "area": "sha_tin",
+      "slot": "09:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 96.0,
+      "median_short_m": 1295.5,
+      "mean_detour_pct": 22.4,
+      "mean_sun_cut_pct": 39.9,
+      "mean_sun_cut_m": 220.3,
+      "short_shaded_pct": 58.0
+    },
+    {
+      "area": "sha_tin",
+      "slot": "12:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 98.0,
+      "median_short_m": 1295.5,
+      "mean_detour_pct": 18.1,
+      "mean_sun_cut_pct": 31.4,
+      "mean_sun_cut_m": 265.3,
+      "short_shaded_pct": 33.8
+    },
+    {
+      "area": "sha_tin",
+      "slot": "12:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 98.0,
+      "median_short_m": 1295.5,
+      "mean_detour_pct": 27.4,
+      "mean_sun_cut_pct": 34.0,
+      "mean_sun_cut_m": 286.3,
+      "short_shaded_pct": 33.8
+    },
+    {
+      "area": "sha_tin",
+      "slot": "15:00",
+      "lam": 2.0,
+      "trips": 100,
+      "changed_pct": 98.0,
+      "median_short_m": 1295.5,
+      "mean_detour_pct": 15.7,
+      "mean_sun_cut_pct": 37.2,
+      "mean_sun_cut_m": 210.1,
+      "short_shaded_pct": 55.9
+    },
+    {
+      "area": "sha_tin",
+      "slot": "15:00",
+      "lam": 4.0,
+      "trips": 100,
+      "changed_pct": 98.0,
+      "median_short_m": 1295.5,
+      "mean_detour_pct": 23.5,
+      "mean_sun_cut_pct": 41.0,
+      "mean_sun_cut_m": 231.8,
+      "short_shaded_pct": 55.9
+    }
+  ]
+}

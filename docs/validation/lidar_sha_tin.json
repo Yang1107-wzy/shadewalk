@@ -1,0 +1,46 @@
+{
+  "area": "sha_tin",
+  "date": "2026-07-15",
+  "lidar_res_m": 1.0,
+  "overhead_cover_vs_weatherproof": {
+    "points_covered_label": 3676,
+    "points_noncovered_label": 35712,
+    "detected_on_covered": 0.8658868335146899,
+    "detected_on_noncovered": 0.2683202121956037
+  },
+  "slots": [
+    {
+      "time": "09:00",
+      "sun_altitude": 41.757,
+      "sun_azimuth": 80.513,
+      "points": 39149,
+      "vector_vs_raster_buildings_agreement": 0.9646478837262765,
+      "shade_buildings_vector": 0.32662392398273266,
+      "shade_buildings_on_terrain": 0.3037114613400087,
+      "shade_full_dsm": 0.692431479731283,
+      "shade_full_dsm_plus_cover": 0.697157015504866
+    },
+    {
+      "time": "12:00",
+      "sun_altitude": 83.172,
+      "sun_azimuth": 95.83,
+      "points": 39149,
+      "vector_vs_raster_buildings_agreement": 0.9856190451863394,
+      "shade_buildings_vector": 0.059975989169582876,
+      "shade_buildings_on_terrain": 0.04699992336969016,
+      "shade_full_dsm": 0.17849753505836674,
+      "shade_full_dsm_plus_cover": 0.36928146312804927
+    },
+    {
+      "time": "15:00",
+      "sun_altitude": 55.132,
+      "sun_azimuth": 275.884,
+      "points": 39149,
+      "vector_vs_raster_buildings_agreement": 0.966308207106184,
+      "shade_buildings_vector": 0.22999310327211422,
+      "shade_buildings_on_terrain": 0.20789803060103706,
+      "shade_full_dsm": 0.6017011928784899,
+      "shade_full_dsm_plus_cover": 0.6126337837492656
+    }
+  ]
+}

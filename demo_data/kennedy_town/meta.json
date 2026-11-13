@@ -1,0 +1,183 @@
+{
+  "shadewalk_version": "0.1.0",
+  "area": {
+    "key": "kennedy_town",
+    "title": "Kennedy Town - HKU (Pok Fu Lam)",
+    "bbox": [
+      114.12,
+      22.278,
+      114.14,
+      22.29
+    ]
+  },
+  "date": "2026-07-15",
+  "timezone": "Asia/Hong_Kong",
+  "slots": [
+    "07:00",
+    "07:30",
+    "08:00",
+    "08:30",
+    "09:00",
+    "09:30",
+    "10:00",
+    "10:30",
+    "11:00",
+    "11:30",
+    "12:00",
+    "12:30",
+    "13:00",
+    "13:30",
+    "14:00",
+    "14:30",
+    "15:00",
+    "15:30",
+    "16:00",
+    "16:30",
+    "17:00",
+    "17:30",
+    "18:00",
+    "18:30",
+    "19:00"
+  ],
+  "sun": {
+    "07:00": {
+      "altitude": 14.76,
+      "azimuth": 72.36
+    },
+    "07:30": {
+      "altitude": 21.392,
+      "azimuth": 74.568
+    },
+    "08:00": {
+      "altitude": 28.101,
+      "azimuth": 76.623
+    },
+    "08:30": {
+      "altitude": 34.87,
+      "azimuth": 78.561
+    },
+    "09:00": {
+      "altitude": 41.687,
+      "azimuth": 80.412
+    },
+    "09:30": {
+      "altitude": 48.543,
+      "azimuth": 82.211
+    },
+    "10:00": {
+      "altitude": 55.428,
+      "azimuth": 83.997
+    },
+    "10:30": {
+      "altitude": 62.336,
+      "azimuth": 85.831
+    },
+    "11:00": {
+      "altitude": 69.262,
+      "azimuth": 87.832
+    },
+    "11:30": {
+      "altitude": 76.197,
+      "azimuth": 90.332
+    },
+    "12:00": {
+      "altitude": 83.127,
+      "azimuth": 94.953
+    },
+    "12:30": {
+      "altitude": 89.228,
+      "azimuth": 189.285
+    },
+    "13:00": {
+      "altitude": 82.879,
+      "azimuth": 265.265
+    },
+    "13:30": {
+      "altitude": 75.948,
+      "azimuth": 269.72
+    },
+    "14:00": {
+      "altitude": 69.012,
+      "azimuth": 272.19
+    },
+    "14:30": {
+      "altitude": 62.086,
+      "azimuth": 274.181
+    },
+    "15:00": {
+      "altitude": 55.176,
+      "azimuth": 276.01
+    },
+    "15:30": {
+      "altitude": 48.29,
+      "azimuth": 277.794
+    },
+    "16:00": {
+      "altitude": 41.434,
+      "azimuth": 279.592
+    },
+    "16:30": {
+      "altitude": 34.616,
+      "azimuth": 281.445
+    },
+    "17:00": {
+      "altitude": 27.845,
+      "azimuth": 283.383
+    },
+    "17:30": {
+      "altitude": 21.134,
+      "azimuth": 285.441
+    },
+    "18:00": {
+      "altitude": 14.501,
+      "azimuth": 287.651
+    },
+    "18:30": {
+      "altitude": 7.981,
+      "azimuth": 290.052
+    },
+    "19:00": {
+      "altitude": 1.735,
+      "azimuth": 292.691
+    }
+  },
+  "params": {
+    "beta": 1.0,
+    "sample_step_m": 2.0,
+    "building_buffer_deg": 0.004,
+    "shade_model": "lidar",
+    "lidar_res_m": 1.0
+  },
+  "counts": {
+    "buildings": 2080,
+    "edges": 4149
+  },
+  "lst_scenes": [
+    "LC09_L2SP_121045_20250726_02_T1",
+    "LC09_L2SP_121045_20250608_02_T1",
+    "LC09_L2SP_121045_20230603_02_T1",
+    "LC09_L2SP_121045_20240707_02_T1",
+    "LC08_L2SP_121045_20230830_02_T1",
+    "LC09_L2SP_121045_20230923_02_T1",
+    "LC08_L2SP_121045_20230713_02_T1",
+    "LC09_L2SP_121045_20240824_02_T1",
+    "LC08_L2SP_121045_20240917_02_T1",
+    "LC08_L2SP_121045_20250702_02_T1"
+  ],
+  "ndvi_scenes": [
+    "S2B_MSIL2A_20241010T025529_R032_T50QKK_20241010T061713",
+    "S2B_MSIL2A_20241030T025749_R032_T50QKK_20241030T061242",
+    "S2B_MSIL2A_20240930T025529_R032_T50QKK_20240930T070512",
+    "S2A_MSIL2A_20241015T025701_R032_T50QKK_20241015T060351",
+    "S2B_MSIL2A_20240910T025529_R032_T50QKK_20240910T070817",
+    "S2B_MSIL2A_20251025T025709_R032_T50QKK_20251025T045929"
+  ],
+  "built_at": "2026-11-13T17:57:26+08:00",
+  "sources": {
+    "buildings": "LandsD Building (CSDI landsd_rcd_1637211194312_35158)",
+    "network": "LandsD 3D Pedestrian Network (CSDI landsd_rcd_1637222018065_52265)",
+    "lst": "Landsat 8/9 C2 L2 ST via Microsoft Planetary Computer",
+    "surface": "CEDD 2020 LiDAR DSM/DTM (CSDI cedd_rcd_1629267205233_87895)",
+    "ndvi": "Sentinel-2 L2A via Microsoft Planetary Computer"
+  }
+}

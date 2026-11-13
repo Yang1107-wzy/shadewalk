@@ -1,0 +1,186 @@
+{
+  "shadewalk_version": "0.1.0",
+  "area": {
+    "key": "mong_kok",
+    "title": "Mong Kok",
+    "bbox": [
+      114.162,
+      22.312,
+      114.176,
+      22.325
+    ]
+  },
+  "date": "2026-07-15",
+  "timezone": "Asia/Hong_Kong",
+  "slots": [
+    "07:00",
+    "07:30",
+    "08:00",
+    "08:30",
+    "09:00",
+    "09:30",
+    "10:00",
+    "10:30",
+    "11:00",
+    "11:30",
+    "12:00",
+    "12:30",
+    "13:00",
+    "13:30",
+    "14:00",
+    "14:30",
+    "15:00",
+    "15:30",
+    "16:00",
+    "16:30",
+    "17:00",
+    "17:30",
+    "18:00",
+    "18:30",
+    "19:00"
+  ],
+  "sun": {
+    "07:00": {
+      "altitude": 14.804,
+      "azimuth": 72.381
+    },
+    "07:30": {
+      "altitude": 21.435,
+      "azimuth": 74.592
+    },
+    "08:00": {
+      "altitude": 28.144,
+      "azimuth": 76.651
+    },
+    "08:30": {
+      "altitude": 34.913,
+      "azimuth": 78.594
+    },
+    "09:00": {
+      "altitude": 41.729,
+      "azimuth": 80.452
+    },
+    "09:30": {
+      "altitude": 48.583,
+      "azimuth": 82.259
+    },
+    "10:00": {
+      "altitude": 55.467,
+      "azimuth": 84.056
+    },
+    "10:30": {
+      "altitude": 62.375,
+      "azimuth": 85.906
+    },
+    "11:00": {
+      "altitude": 69.299,
+      "azimuth": 87.934
+    },
+    "11:30": {
+      "altitude": 76.233,
+      "azimuth": 90.489
+    },
+    "12:00": {
+      "altitude": 83.16,
+      "azimuth": 95.281
+    },
+    "12:30": {
+      "altitude": 89.187,
+      "azimuth": 191.418
+    },
+    "13:00": {
+      "altitude": 82.84,
+      "azimuth": 265.03
+    },
+    "13:30": {
+      "altitude": 75.912,
+      "azimuth": 269.598
+    },
+    "14:00": {
+      "altitude": 68.977,
+      "azimuth": 272.112
+    },
+    "14:30": {
+      "altitude": 62.052,
+      "azimuth": 274.126
+    },
+    "15:00": {
+      "altitude": 55.144,
+      "azimuth": 275.97
+    },
+    "15:30": {
+      "altitude": 48.259,
+      "azimuth": 277.765
+    },
+    "16:00": {
+      "altitude": 41.404,
+      "azimuth": 279.572
+    },
+    "16:30": {
+      "altitude": 34.587,
+      "azimuth": 281.431
+    },
+    "17:00": {
+      "altitude": 27.818,
+      "azimuth": 283.376
+    },
+    "17:30": {
+      "altitude": 21.109,
+      "azimuth": 285.439
+    },
+    "18:00": {
+      "altitude": 14.478,
+      "azimuth": 287.654
+    },
+    "18:30": {
+      "altitude": 7.959,
+      "azimuth": 290.061
+    },
+    "19:00": {
+      "altitude": 1.716,
+      "azimuth": 292.705
+    }
+  },
+  "params": {
+    "beta": 1.0,
+    "sample_step_m": 2.0,
+    "building_buffer_deg": 0.004,
+    "shade_model": "lidar",
+    "lidar_res_m": 1.0
+  },
+  "counts": {
+    "buildings": 6148,
+    "edges": 9684
+  },
+  "lst_scenes": [
+    "LC09_L2SP_121045_20250726_02_T1",
+    "LC09_L2SP_121045_20250608_02_T1",
+    "LC09_L2SP_121045_20250912_02_T1",
+    "LC09_L2SP_121045_20240707_02_T1",
+    "LC08_L2SP_121045_20250904_02_T1",
+    "LC08_L2SP_121045_20230830_02_T1",
+    "LC08_L2SP_121045_20230713_02_T1",
+    "LC08_L2SP_121045_20230627_02_T1",
+    "LC08_L2SP_121045_20230814_02_T1",
+    "LC08_L2SP_121045_20240917_02_T1",
+    "LC08_L2SP_121045_20250702_02_T1"
+  ],
+  "ndvi_scenes": [
+    "S2C_MSIL2A_20251007T024621_R132_T50QKK_20251007T061712",
+    "S2A_MSIL2A_20251009T025151_R132_T50QKK_20251009T063816",
+    "S2B_MSIL2A_20241010T025529_R032_T50QKK_20241010T061713",
+    "S2B_MSIL2A_20250912T024529_R132_T50QKK_20250912T063737",
+    "S2B_MSIL2A_20240927T024529_R132_T50QKK_20240927T055502",
+    "S2A_MSIL2A_20240803T024531_R132_T50QKK_20240803T075750",
+    "S2B_MSIL2A_20241030T025749_R032_T50QKK_20241030T061242",
+    "S2A_MSIL2A_20241022T024751_R132_T50QKK_20241022T061351"
+  ],
+  "built_at": "2026-11-13T17:44:26+08:00",
+  "sources": {
+    "buildings": "LandsD Building (CSDI landsd_rcd_1637211194312_35158)",
+    "network": "LandsD 3D Pedestrian Network (CSDI landsd_rcd_1637222018065_52265)",
+    "lst": "Landsat 8/9 C2 L2 ST via Microsoft Planetary Computer",
+    "surface": "CEDD 2020 LiDAR DSM/DTM (CSDI cedd_rcd_1629267205233_87895)",
+    "ndvi": "Sentinel-2 L2A via Microsoft Planetary Computer"
+  }
+}

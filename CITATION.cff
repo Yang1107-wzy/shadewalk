@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ShadeWalk HK: shade- and heat-aware walking routes from open geospatial data"
+authors:
+  - family-names: Wang
+    given-names: Zhengyang
+version: 0.2.0
+date-released: 2026-11-13
+license: MIT
+repository-code: "https://github.com/Yang1107-wzy/shadewalk"
+keywords: [GIS, urban heat, shade, pedestrian routing, Hong Kong, Landsat]

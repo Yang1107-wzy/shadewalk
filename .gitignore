@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+site/
+.cache/
+data_cache/
+outputs/*
+!outputs/.gitkeep
+*.egg-info/
+.DS_Store
+.streamlit/secrets.toml
+outputs_lidar/

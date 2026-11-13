@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: mypy src/shadewalk
+
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python-version: ["3.10", "3.11", "3.12"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: pip install -e ".[dev]"
+      - run: pytest -q  # includes the browser-router vs Python parity test (node)
+      - name: CLI smoke tests on bundled demo data
+        run: |
+          shadewalk route mong_kok --from "Langham Place" --to "Sino Centre" --time 15:00 --out demo_data
+          shadewalk analyze mong_kok --out demo_data --permutations 99
+          shadewalk export mong_kok -o mk.gpkg --out demo_data

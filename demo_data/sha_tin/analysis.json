@@ -1,0 +1,142 @@
+{
+  "variable": "sun_hours",
+  "segments": 2631,
+  "morans_I": 0.4429,
+  "morans_p": 0.001,
+  "lisa_clusters_p05": {
+    "Not significant": 1495,
+    "Low-Low": 506,
+    "High-High": 466,
+    "Low-High": 83,
+    "High-Low": 81
+  },
+  "ols_r2": 0.896,
+  "ols_residual_morans_I": 0.235,
+  "coefficients": [
+    {
+      "term": "const",
+      "beta_std": 0.0,
+      "se_hc1": 0.0063,
+      "t": 0.0,
+      "p": 1.0
+    },
+    {
+      "term": "log_hw",
+      "beta_std": -0.0212,
+      "se_hc1": 0.0083,
+      "t": -2.5474,
+      "p": 0.0109
+    },
+    {
+      "term": "ori_ns",
+      "beta_std": -0.0349,
+      "se_hc1": 0.0062,
+      "t": -5.6032,
+      "p": 0.0
+    },
+    {
+      "term": "ori_diag",
+      "beta_std": -0.0047,
+      "se_hc1": 0.0064,
+      "t": -0.7365,
+      "p": 0.4615
+    },
+    {
+      "term": "bcr",
+      "beta_std": -0.0404,
+      "se_hc1": 0.0083,
+      "t": -4.8793,
+      "p": 0.0
+    },
+    {
+      "term": "mean_height",
+      "beta_std": -0.0327,
+      "se_hc1": 0.0078,
+      "t": -4.2024,
+      "p": 0.0
+    },
+    {
+      "term": "svf",
+      "beta_std": 0.7863,
+      "se_hc1": 0.0114,
+      "t": 69.2735,
+      "p": 0.0
+    },
+    {
+      "term": "tree",
+      "beta_std": -0.2107,
+      "se_hc1": 0.0082,
+      "t": -25.5729,
+      "p": 0.0
+    }
+  ],
+  "spatial_lag": {
+    "rho": -0.0822,
+    "pseudo_r2": 0.893,
+    "coefficients": [
+      {
+        "term": "const",
+        "coef": -0.0003,
+        "se": 0.0064,
+        "z": -0.0518,
+        "p": 0.9587
+      },
+      {
+        "term": "log_hw",
+        "coef": -0.0197,
+        "se": 0.0077,
+        "z": -2.5547,
+        "p": 0.0106
+      },
+      {
+        "term": "ori_ns",
+        "coef": -0.0366,
+        "se": 0.0064,
+        "z": -5.7359,
+        "p": 0.0
+      },
+      {
+        "term": "ori_diag",
+        "coef": -0.0037,
+        "se": 0.0064,
+        "z": -0.575,
+        "p": 0.5653
+      },
+      {
+        "term": "bcr",
+        "coef": -0.0477,
+        "se": 0.0074,
+        "z": -6.4677,
+        "p": 0.0
+      },
+      {
+        "term": "mean_height",
+        "coef": -0.042,
+        "se": 0.0076,
+        "z": -5.5296,
+        "p": 0.0
+      },
+      {
+        "term": "svf",
+        "coef": 0.8191,
+        "se": 0.0108,
+        "z": 76.0207,
+        "p": 0.0
+      },
+      {
+        "term": "tree",
+        "coef": -0.2133,
+        "se": 0.0089,
+        "z": -23.9795,
+        "p": 0.0
+      },
+      {
+        "term": "rho (W_y)",
+        "coef": -0.0822,
+        "se": 0.0139,
+        "z": -5.9165,
+        "p": 0.0
+      }
+    ]
+  }
+}

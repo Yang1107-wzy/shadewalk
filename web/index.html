@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShadeWalk Atlas</title>
+  <meta name="description" content="Shade- and heat-aware walking routes for Hong Kong, computed from open LiDAR, building, pedestrian-network and satellite data.">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map" role="application" aria-label="Map"></div>
+  <aside id="panel">
+    <header>
+      <h1>ShadeWalk Atlas</h1>
+      <p class="sub">Hong Kong street shade, sun exposure and coolest walking routes</p>
+    </header>
+
+    <label class="row">Area
+      <select id="area"></select>
+    </label>
+
+    <fieldset>
+      <legend>Map layer</legend>
+      <div class="seg" id="layer">
+        <button data-layer="shade" class="on">Shade now</button>
+        <button data-layer="sun_hours">Sun hours</button>
+        <button data-layer="svf">Sky view</button>
+        <button data-layer="tree">Tree cover</button>
+        <button data-layer="lisa">Hot spots</button>
+      </div>
+    </fieldset>
+
+    <label class="row">Time <output id="timeOut"></output>
+      <input id="time" type="range" min="0" max="0" step="1">
+    </label>
+    <p class="sun" id="sun"></p>
+
+    <label class="row">Shade preference λ <output id="lamOut">2</output>
+      <input id="lam" type="range" min="0" max="12" step="0.5" value="2">
+    </label>
+
+    <div class="seg" id="mode">
+      <button data-mode="route" class="on">A → B route</button>
+      <button data-mode="mtr">Nearest MTR</button>
+    </div>
+    <p class="hint" id="hint">Click the map to set a start point.</p>
+
+    <div id="stats" hidden>
+      <table>
+        <thead><tr><th></th><th>Distance</th><th>In sun</th><th>Shaded</th></tr></thead>
+        <tbody>
+          <tr><td><span class="sw short"></span>Shortest</td><td id="sLen"></td><td id="sSun"></td><td id="sPct"></td></tr>
+          <tr><td><span class="sw cool"></span>Coolest</td><td id="cLen"></td><td id="cSun"></td><td id="cPct"></td></tr>
+        </tbody>
+      </table>
+      <p id="verdict"></p>
+      <button id="reset" class="link">Clear route</button>
+    </div>
+
+    <div id="legend"></div>
+
+    <footer>
+      <p>Data: Lands Department &amp; CEDD (CSDI), C&amp;SD 2021 Census, Landsat/USGS, Sentinel-2/ESA. Model results, not measurements; see the
+        <a href="https://yang1107-wzy.github.io/shadewalk/" target="_blank" rel="noopener">documentation</a>.</p>
+    </footer>
+  </aside>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

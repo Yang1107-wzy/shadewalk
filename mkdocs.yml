@@ -1,0 +1,45 @@
+site_name: ShadeWalk HK
+site_description: Shade- and heat-aware walking routes for Hong Kong
+site_url: https://yang1107-wzy.github.io/shadewalk/
+repo_url: https://github.com/Yang1107-wzy/shadewalk
+repo_name: Yang1107-wzy/shadewalk
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - scheme: slate
+      primary: teal
+      toggle: {icon: material/weather-sunny, name: Light mode}
+  features: [navigation.sections, content.code.copy]
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Method: method.md
+  - Tutorial: tutorial.md
+  - Results:
+      - Routing case study: case-study.md
+      - Street analysis & MTR access: analysis.md
+  - Validation: validation.md
+  - Web atlas: web-atlas.md
+  - API reference: api.md
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.arithmatex: {generic: true}
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options: {show_source: false, docstring_style: numpy, members_order: source}

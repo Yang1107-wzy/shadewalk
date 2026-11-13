@@ -1,0 +1,181 @@
+{
+  "shadewalk_version": "0.1.0",
+  "area": {
+    "key": "central",
+    "title": "Central - Sheung Wan",
+    "bbox": [
+      114.148,
+      22.276,
+      114.164,
+      22.289
+    ]
+  },
+  "date": "2026-07-15",
+  "timezone": "Asia/Hong_Kong",
+  "slots": [
+    "07:00",
+    "07:30",
+    "08:00",
+    "08:30",
+    "09:00",
+    "09:30",
+    "10:00",
+    "10:30",
+    "11:00",
+    "11:30",
+    "12:00",
+    "12:30",
+    "13:00",
+    "13:30",
+    "14:00",
+    "14:30",
+    "15:00",
+    "15:30",
+    "16:00",
+    "16:30",
+    "17:00",
+    "17:30",
+    "18:00",
+    "18:30",
+    "19:00"
+  ],
+  "sun": {
+    "07:00": {
+      "altitude": 14.782,
+      "azimuth": 72.368
+    },
+    "07:30": {
+      "altitude": 21.414,
+      "azimuth": 74.574
+    },
+    "08:00": {
+      "altitude": 28.124,
+      "azimuth": 76.629
+    },
+    "08:30": {
+      "altitude": 34.894,
+      "azimuth": 78.566
+    },
+    "09:00": {
+      "altitude": 41.711,
+      "azimuth": 80.417
+    },
+    "09:30": {
+      "altitude": 48.566,
+      "azimuth": 82.216
+    },
+    "10:00": {
+      "altitude": 55.452,
+      "azimuth": 84.001
+    },
+    "10:30": {
+      "altitude": 62.36,
+      "azimuth": 85.834
+    },
+    "11:00": {
+      "altitude": 69.286,
+      "azimuth": 87.835
+    },
+    "11:30": {
+      "altitude": 76.221,
+      "azimuth": 90.337
+    },
+    "12:00": {
+      "altitude": 83.151,
+      "azimuth": 94.968
+    },
+    "12:30": {
+      "altitude": 89.225,
+      "azimuth": 191.068
+    },
+    "13:00": {
+      "altitude": 82.855,
+      "azimuth": 265.303
+    },
+    "13:30": {
+      "altitude": 75.924,
+      "azimuth": 269.737
+    },
+    "14:00": {
+      "altitude": 68.988,
+      "azimuth": 272.201
+    },
+    "14:30": {
+      "altitude": 62.062,
+      "azimuth": 274.19
+    },
+    "15:00": {
+      "altitude": 55.152,
+      "azimuth": 276.018
+    },
+    "15:30": {
+      "altitude": 48.266,
+      "azimuth": 277.802
+    },
+    "16:00": {
+      "altitude": 41.41,
+      "azimuth": 279.6
+    },
+    "16:30": {
+      "altitude": 34.592,
+      "azimuth": 281.452
+    },
+    "17:00": {
+      "altitude": 27.822,
+      "azimuth": 283.391
+    },
+    "17:30": {
+      "altitude": 21.111,
+      "azimuth": 285.449
+    },
+    "18:00": {
+      "altitude": 14.478,
+      "azimuth": 287.659
+    },
+    "18:30": {
+      "altitude": 7.958,
+      "azimuth": 290.061
+    },
+    "19:00": {
+      "altitude": 1.714,
+      "azimuth": 292.701
+    }
+  },
+  "params": {
+    "beta": 1.0,
+    "sample_step_m": 2.0,
+    "building_buffer_deg": 0.004,
+    "shade_model": "lidar",
+    "lidar_res_m": 1.0
+  },
+  "counts": {
+    "buildings": 3604,
+    "edges": 9816
+  },
+  "lst_scenes": [
+    "LC09_L2SP_121045_20250726_02_T1",
+    "LC09_L2SP_121045_20230603_02_T1",
+    "LC08_L2SP_121045_20230830_02_T1",
+    "LC09_L2SP_121045_20230923_02_T1",
+    "LC08_L2SP_121045_20230713_02_T1",
+    "LC08_L2SP_121045_20250702_02_T1"
+  ],
+  "ndvi_scenes": [
+    "S2C_MSIL2A_20251007T024621_R132_T50QKK_20251007T061712",
+    "S2B_MSIL2A_20241010T025529_R032_T50QKK_20241010T061713",
+    "S2B_MSIL2A_20241030T025749_R032_T50QKK_20241030T061242",
+    "S2B_MSIL2A_20240930T025529_R032_T50QKK_20240930T070512",
+    "S2C_MSIL2A_20250927T024541_R132_T50QKK_20250927T062614",
+    "S2B_MSIL2A_20250915T025519_R032_T50QKK_20250915T064429",
+    "S2B_MSIL2A_20251025T025709_R032_T50QKK_20251025T045929",
+    "S2B_MSIL2A_20250704T024529_R132_T50QKK_20250704T044807"
+  ],
+  "built_at": "2026-11-13T18:02:49+08:00",
+  "sources": {
+    "buildings": "LandsD Building (CSDI landsd_rcd_1637211194312_35158)",
+    "network": "LandsD 3D Pedestrian Network (CSDI landsd_rcd_1637222018065_52265)",
+    "lst": "Landsat 8/9 C2 L2 ST via Microsoft Planetary Computer",
+    "surface": "CEDD 2020 LiDAR DSM/DTM (CSDI cedd_rcd_1629267205233_87895)",
+    "ndvi": "Sentinel-2 L2A via Microsoft Planetary Computer"
+  }
+}
